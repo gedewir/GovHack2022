@@ -1,0 +1,21 @@
+#footer-container {
+    background-color: #479ad2;
+}
+
+.navbar-container {
+    background-color: #479ad2;
+}
+
+.challenge {
+    background-color: #cb1d55;
+    color: white;
+}
+
+#link{
+    text-decoration: none;
+    color: inherit;
+}
+
+#challenge-thumbnail {
+    width: 100px;
+}

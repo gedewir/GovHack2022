@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    block header
+            .container-fluid.mt-1-px-10.navbar-container
+                .container
+                    nav.navbar.navbar-light
+                        a(href="/", style="color: #FFFFFF").p-2.navbar-brand GovHack 2022
+    block content
+        div.container-fluid.mt-3
+                div.container-xxl
+                    h1 Hello there!
+                    p(style="font-size: larger") Welcome to our GovHack 2022 project webpage. The focus of this years GovHack is Environmental, Social and Corporate Governance (ESG) - a framework built so we can understand how organisations can manage risks and opportunities regarding sustainability issues.
+                    p(style="font-size: larger") Using open data in our challenges, we have built applications which can enable New Zealand citizens to act in a responsible manner.
+                    h2 Our Challenges:
+                    .container.challenge.mb-3
+                        div.row
+                            .col-sm
+                                div.container-fluid#textbox
+                                h1 <a href="/project2", id="link">DiverEnterprise</a>
+                                h4 Challenge: "Best utilisation of public transportation for climate impact"
+                                p Overview:
+                            .col-sm
+                    .container.challenge
+                        div.row
+                            div.col-sm.p-3
+                                div.container-fluid#textbox
+                                    h1 <a href="/project2", id="link">NZ Litter Bot</a>
+                                    h4 Challenge: "Reduce waste dumped in our waterways"
+                                    p Overview:
+                            div.col-sm.p-3
+                                img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/1200px-Twitter-logo.svg.png", alt="", srcset="")#challenge-thumbnail
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js", integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/", crossorigin="anonymous")
